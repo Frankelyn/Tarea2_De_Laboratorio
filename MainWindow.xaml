@@ -1,0 +1,31 @@
+﻿<Window x:Class="RegistroEstudiantesWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RegistroEstudiantesWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Menu Height="18">
+                <MenuItem Header="Registros">
+                    <MenuItem x:Name="EstudianteMenuItem" Header="Registro Estudiante" Click="EstudianteMenuItem_Click"></MenuItem>
+                    <MenuItem x:Name="RolMenuItem" Header="Registro Roles" Click="RolMenuItem_Click"></MenuItem>
+                </MenuItem>
+
+
+
+                <MenuItem Header="Consultas">
+                    <MenuItem x:Name="ConsultaEstudianteMenuItem" Header="Consulta Estudiante" Click="ConsultaEstudianteMenuItem_Click"/>
+                </MenuItem>
+
+
+
+                <MenuItem Header="Ayuda">
+                    <Menu/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+    </Grid>
+</Window>
