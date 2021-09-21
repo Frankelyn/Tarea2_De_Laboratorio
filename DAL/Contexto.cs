@@ -14,6 +14,8 @@ namespace RegistroEstudiantesWPF.DAL
 
        public DbSet<Roles> Roles { get; set; }
 
+       public DbSet<Usuarios> Usuarios { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

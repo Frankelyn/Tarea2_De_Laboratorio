@@ -13,8 +13,14 @@
                 <Label Content="Rol Id:"/>
 
                 <StackPanel Orientation="Horizontal">
-                    <TextBox x:Name="RolIdTextbox" Height="18" Width="70"/>
-                    <Button x:Name="BuscarButton" Click="BuscarButton_Click"  Content="Buscar" Margin="5,0" />
+                    <TextBox x:Name="RolIdTextbox" Text="{Binding RolId}" Height="18" Width="70"/>
+                    <Button x:Name="BuscarButton" Click="BuscarButton_Click" Margin="5,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Resources/search-icon (2).png" Width="20" Height="20" />
+                            <Label Content="Buscar" />                            
+                        </StackPanel>
+
+                    </Button>
                 </StackPanel>
             </StackPanel>
 
@@ -22,7 +28,7 @@
             <DatePicker x:Name="FechaDeCreacionDataPicker" SelectedDate="{Binding FechaDeCreacion}" SelectedDateFormat="Short"  />
 
             <Label Content="Descripcion" />
-            <TextBox x:Name="DescripcionTextbox" Height="50"/>
+            <TextBox x:Name="DescripcionTextbox" Text="{Binding Descripcion}" Height="50"/>
 
 
             <!--Barra de botones-->

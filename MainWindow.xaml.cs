@@ -47,6 +47,10 @@ namespace RegistroEstudiantesWPF
 
         }
 
-        
+        private void UsuariosMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            rUsuarios rUsuarios = new rUsuarios();
+            rUsuarios.Show();
+        }
     }
 }

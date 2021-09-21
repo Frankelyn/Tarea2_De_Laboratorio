@@ -43,13 +43,6 @@ namespace RegistroEstudiantesWPF.UI.Registros
 
         }
 
-        private bool ExisteEnLaBaseDeDatos()
-        {
-            Roles esValido = RolesBLL.Buscar(Rol.Descripcion);
-
-            return (esValido != null);
-        }
-
         private bool Validar()
         {
             bool esValido = true;
@@ -66,10 +59,11 @@ namespace RegistroEstudiantesWPF.UI.Registros
                 MessageBox.Show("Descripcion no valida", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
-            if(ExisteEnLaBaseDeDatos())
+            if (RolesBLL.ExisteRol(Rol.Descripcion))
             {
                 esValido = false;
-                MessageBox.Show("Este rol ya existe", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Esta descripcion ya existe", "Fallo",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
             }
 
             return esValido;
@@ -131,5 +125,7 @@ namespace RegistroEstudiantesWPF.UI.Registros
             DescripcionTextbox.Clear();
             RolIdTextbox.Focus();
         }
+
+        
     }
 }

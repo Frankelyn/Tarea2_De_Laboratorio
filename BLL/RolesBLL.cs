@@ -159,6 +159,30 @@ namespace RegistroEstudiantesWPF.BLL
             return lista;
         }
 
+
+        public static List<Roles> GetRoles()
+        {
+            List<Roles> lista = new List<Roles>();
+            Contexto contexto = new Contexto();
+
+            try
+            {
+                lista = contexto.Roles.ToList();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                contexto.Dispose();
+            }
+
+            return lista;
+        }
+
+
         public static bool Existe(int id)
         {
             Contexto contexto = new Contexto();
@@ -169,6 +193,27 @@ namespace RegistroEstudiantesWPF.BLL
                 encontrado = contexto.Roles.Any(e => e.RolId == id);
             }
 
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                contexto.Dispose();
+            }
+
+            return encontrado;
+        }
+
+        public static bool ExisteRol(string rol)
+        {
+            Contexto contexto = new Contexto();
+            bool encontrado = false;
+
+            try
+            {
+                encontrado = contexto.Roles.Any(e => e.Descripcion == rol);
+            }
             catch (Exception)
             {
                 throw;

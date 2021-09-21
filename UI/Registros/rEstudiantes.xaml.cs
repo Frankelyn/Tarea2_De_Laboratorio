@@ -16,14 +16,15 @@ using System.Windows.Shapes;
 
 namespace RegistroEstudiantesWPF.UI.Registros
 {
-    
+
     public partial class rEstudiantes : Window
     {
-       
+
         private Estudiantes Estudiante = new Estudiantes();
         public rEstudiantes()
         {
             InitializeComponent();
+            this.DataContext = Estudiante;
         }
 
         private void Limpiar()
@@ -62,7 +63,7 @@ namespace RegistroEstudiantesWPF.UI.Registros
         private void NuevoButton_Click(object sender, RoutedEventArgs e)
         {
             Limpiar();
-           
+
         }
 
         private void GuardarButton_Click(object sender, RoutedEventArgs e)
@@ -92,6 +93,6 @@ namespace RegistroEstudiantesWPF.UI.Registros
                 MessageBox.Show("No fue posible eliminar", "Fallo", MessageBoxButton.OK, MessageBoxImage.Error);
         }
 
-        
+
     }
 }

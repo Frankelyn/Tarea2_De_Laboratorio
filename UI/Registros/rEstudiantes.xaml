@@ -13,16 +13,16 @@
                 <Label Content="Estudiante Id:"/>
 
                 <StackPanel Orientation="Horizontal">
-                    <TextBox x:Name="EstudianteIdTextBox" Height="18" Width="70"/>
+                    <TextBox x:Name="EstudianteIdTextBox" Text="{Binding EstudianteId}" Height="18" Width="70"/>
                     <Button x:Name="BuscarButton" Click="BuscarButton_Click" Content="Buscar" Margin="5,0" />
                 </StackPanel>
             </StackPanel>
 
             <Label Content="Nombres" />
-            <TextBox x:Name="NombresTextbox"/>
+            <TextBox x:Name="NombresTextbox" Text="{Binding Nombres}"/>
             
             <Label Content="Semestre" />
-            <TextBox x:Name="SemestreTextbox"/>
+            <TextBox x:Name="SemestreTextbox" Text="{Binding Semestre}"/>
             
             
             <!--Barra de botones-->

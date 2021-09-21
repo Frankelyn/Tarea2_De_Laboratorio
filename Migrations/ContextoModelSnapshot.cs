@@ -49,6 +49,51 @@ namespace RegistroEstudiantesWPF.Migrations
 
                     b.ToTable("Roles");
                 });
+
+            modelBuilder.Entity("RegistroEstudiantesWPF.Entidades.Usuarios", b =>
+                {
+                    b.Property<int>("UsuarioID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("Activo")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Alias")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Clave")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("FechaIngreso")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Nombres")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("RolId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("UsuarioID");
+
+                    b.HasIndex("RolId");
+
+                    b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("RegistroEstudiantesWPF.Entidades.Usuarios", b =>
+                {
+                    b.HasOne("RegistroEstudiantesWPF.Entidades.Roles", "Rol")
+                        .WithMany()
+                        .HasForeignKey("RolId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Rol");
+                });
 #pragma warning restore 612, 618
         }
     }

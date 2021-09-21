@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RegistroEstudiantesWPF.BLL
 {
-    class Utilidades
+    public class Utilidades
     {
         public static int ToInt(string valor)
         {

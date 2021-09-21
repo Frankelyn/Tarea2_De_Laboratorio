@@ -59,6 +59,15 @@ C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada
 C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\ref\RegistroEstudiantesWPF.dll
 C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\RegistroEstudiantesWPF.pdb
 C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\RegistroEstudiantesWPF.genruntimeconfig.cache
-C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\bin\Debug\net5.0-windows\DATA\TeacherControl.db
 C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\UI\Registros\rRoles.g.cs
 C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\UI\Registros\rRoles.baml
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\RegistroEstudiantesWPF.Properties.Resources.resources
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\RegistroEstudiantesWPF.csproj.GenerateResource.cache
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\bin\Debug\net5.0-windows\Resources\search-icon (2).png
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\RegistroEstudiantesWPF_Content.g.cs
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\UI\Registros\rUsuarios.g.cs
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\UI\Registros\rUsuarios.baml
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\bin\Debug\net5.0-windows\Resources\Actions-window-close-icon.png
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\bin\Debug\net5.0-windows\Resources\new-icon.png
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\bin\Debug\net5.0-windows\Resources\save-icon (1).png
+C:\Users\frank\OneDrive\Escritorio\UCNE_3-2021\Laboratorio_Programacion_Aplicada_1\RegistroEstudiantesWPF\RegistroEstudiantesWPF\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
